@@ -5,9 +5,9 @@ Simple python script for extract emails from spesfic url then export the
 results into .html file
 ---
 
-## Setup:
+## Setup
 
-### 🛠️ Step 1: Create a Python Virtual Environment:
+### 🛠️ Step 1: Create a Python Virtual Environment
 
 Create a virtual environment to isolate your project dependencies.
 
@@ -101,7 +101,45 @@ Once the setup is complete, run your Python script.
 - **Python Version**: On **Linux/macOS**, use `python3` if the default version is Python 2.x.
 
 ---
+## 🛠️ Usage
 
+This application features a simple **GUI** built using the `customtkinter` module.
+
+---
+
+### 🔤 Input Fields:
+- **Target URL**:  
+  Enter the target URL to search for emails.
+
+- **Number of Threads**:  
+  Specify the number of threads for the extraction operation.
+
+- **Max URLs to Scan**:  
+  Define the maximum number of URLs to be scanned, starting from the main URL, for email extraction.
+
+- **Output HTML File**:  
+  Provide the name of the generated HTML report. This file will contain the emails extracted from the scanned URLs.
+
+---
+
+### 🖱️ Buttons:
+- **Start**:  
+  Begins the email extraction process.
+
+- **Stop**:  
+  Halts the extraction process and saves the collected emails to the specified HTML file.
+
+- **Clear Screen**:  
+  Clears the logs and output from the extraction operation displayed in the GUI.
+
+---
+
+### ⚡ Notes:
+- Ensure that the target URL is accessible.
+- Use a reasonable number of threads (10-20 recommended) based on your system's capability for better performance.
+- The output HTML report will be saved in the same directory as the executable/script unless otherwise specified.
+
+---
 ## 📜 License:
 
 This project is licensed under the **MIT License**. Feel free to modify or share it! 😊
