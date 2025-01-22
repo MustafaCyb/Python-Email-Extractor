@@ -138,7 +138,7 @@ This application features a simple **GUI** built using the `customtkinter` modul
 ### ⚡ Notes:
 - Ensure that the target URL is accessible.
 - Use a reasonable number of threads (10-20 recommended) based on your system's capability for better performance.
-- The output HTML report will be saved in the same directory as the executable/script unless otherwise specified.
+- The output HTML report will be saved in the same directory as the executable/script.
 
 ---
 ## 📜 License:
