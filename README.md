@@ -1,9 +1,10 @@
 
-
 # 🚀 Python Email Extractor
-Simple python script for extract emails from spesfic url then export the
-results into .html file
+
+A simple Python script for extracting emails from a specific URL and exporting the results into an HTML file.
+
 ---
+
 
 ## Setup
 
